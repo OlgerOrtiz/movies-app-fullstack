@@ -1,0 +1,36 @@
+
+
+.filter-option{
+    padding: .2em .5em;
+    border-radius: .5em;
+}
+.filter-option:hover{
+    background-color: rgb(79, 160, 236);
+    text-decoration: none;
+    color: aliceblue;
+}
+.home__container{
+    width: 100%;
+}
+
+
+.filter__list {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .2em;
+    padding: 1em;
+    justify-content: center;
+    margin: auto;
+}
+
+@media (min-width: 500px) {
+    .home__filter{
+        max-width: max-content !important;
+    }
+    .filter__list{
+        width: 100%;
+        flex-direction: column;
+        justify-content: left;
+    }
+}

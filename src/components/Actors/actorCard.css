@@ -1,0 +1,9 @@
+.card__content {
+    height: 100%;
+}
+
+.card__img {
+    height: 350px;
+    object-fit: cover;
+    
+}

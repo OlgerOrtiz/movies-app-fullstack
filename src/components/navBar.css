@@ -1,0 +1,28 @@
+.navBar__container {
+    background-color: rgb(7, 38, 216);
+}
+
+
+.me-auto > * {
+    color: rgb(226, 203, 70) !important;
+}
+
+.logo__text{
+    color: rgb(226, 203, 70) !important;
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.logo {
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+
+@media (min-width: 500px) {
+    .me-auto {
+        gap: 3em;
+        padding-left: 2em;
+    }
+}

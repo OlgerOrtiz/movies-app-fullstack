@@ -1,0 +1,15 @@
+.card__container{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 100%;
+    cursor: pointer;
+    width: 300px;
+}
+
+.card__img {
+    height: 350px;
+    object-fit: cover;
+}
